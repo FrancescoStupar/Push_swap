@@ -6,7 +6,7 @@
 /*   By: fstupar <fstupar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/07 12:10:44 by fstupar           #+#    #+#             */
-/*   Updated: 2022/04/13 16:19:28 by fstupar          ###   ########.fr       */
+/*   Updated: 2022/04/14 11:55:21 by fstupar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_run(int argc, char **argv, t_list *list_a, t_list *list_b)
 	int	i;
 
 	i = 1;
-	if (argc == 2)
+	if (argc == 2 || argc == 1)
 		return (0);
 	while (i < argc)
 	{
